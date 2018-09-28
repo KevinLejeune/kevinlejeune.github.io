@@ -22,9 +22,3 @@
 	color: green;
 	text-align: center;
 }
-
-#bordure {
-	border-left: 5px solid black;
-	float: left;
-	height: 40px;
-}

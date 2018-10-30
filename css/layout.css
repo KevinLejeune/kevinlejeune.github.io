@@ -431,23 +431,23 @@ ul#nav li.current a { color: #11ABB0; }
 }
 .git {
   width: 70%;
-  -moz-animation: reactnative 2s ease;
-  -webkit-animation: reactnative 2s ease;
+  -moz-animation: git 2s ease;
+  -webkit-animation: git 2s ease;
 }
 .angularjs {
   width: 60%;
-  -moz-animation: reactnative 2s ease;
-  -webkit-animation: reactnative 2s ease;
+  -moz-animation: angularjs 2s ease;
+  -webkit-animation: angularjs 2s ease;
 }
 .php {
   width: 40%;
-  -moz-animation: reactnative 2s ease;
-  -webkit-animation: reactnative 2s ease;
+  -moz-animation: php 2s ease;
+  -webkit-animation: php 2s ease;
 }
 .moment {
   width: 50%;
-  -moz-animation: reactnative 2s ease;
-  -webkit-animation: reactnative 2s ease;
+  -moz-animation: moment 2s ease;
+  -webkit-animation: moment 2s ease;
 }
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }

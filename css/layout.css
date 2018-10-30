@@ -188,48 +188,163 @@ ul#nav li.current a { color: #11ABB0; }
    font-size: 20px;
 }
 
-#resume {
+#formation {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#formation a, #formation a:visited  { color: #11ABB0; }
+#formation a:hover, #formation a:focus { color: #313131; }
 
-#resume h1 {
+#formation h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#formation h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume h3 {
+#formation h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#formation .header-col { padding-top: 9px; }
+#formation .main-col { padding-right: 10%; }
 
-.education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
-}
-#resume .info {
+#formation .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#formation .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#formation .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+#experience {
+   background: #fff;
+   padding-top: 90px;
+   overflow: hidden;
+}
+
+#experience a, #experience a:visited  { color: #11ABB0; }
+#experience a:hover, #experience a:focus { color: #313131; }
+
+#experience h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#experience h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#experience h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#experience .header-col { padding-top: 9px; }
+#experience .main-col { padding-right: 10%; }
+
+#experience .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#experience .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#experience .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+#skill {
+   background: #fff;
+   padding-top: 90px;
+   overflow: hidden;
+}
+
+#skill a, #skill a:visited  { color: #11ABB0; }
+#skill a:hover, #skill a:focus { color: #313131; }
+
+#skill h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#skill h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#skill h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#skill .header-col { padding-top: 9px; }
+#skill .main-col { padding-right: 10%; }
+
+#skill .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#skill .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#skill .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+#project {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 50px;
+   overflow: hidden;
+}
+
+#project a, #project a:visited  { color: #11ABB0; }
+#project a:hover, #project a:focus { color: #313131; }
+
+#project h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#project h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#project h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#project .header-col { padding-top: 9px; }
+#project .main-col { padding-right: 10%; }
+
+#project .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#project .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#project .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -356,6 +471,10 @@ ul#nav li.current a { color: #11ABB0; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
+@-moz-keyframes angularjs {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
 
 @-webkit-keyframes wordpress {
   0%   { width: 0px;  }
@@ -392,6 +511,10 @@ ul#nav li.current a { color: #11ABB0; }
 @-webkit-keyframes git {
   0%   { width: 0px;  }
   100% { width: 70%;  }
+}
+@-webkit-keyframes angularjs {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
 }
 #testimonials {
    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;

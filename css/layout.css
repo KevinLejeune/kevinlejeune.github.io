@@ -439,7 +439,16 @@ ul#nav li.current a { color: #11ABB0; }
   -moz-animation: reactnative 2s ease;
   -webkit-animation: reactnative 2s ease;
 }
-
+.php {
+  width: 40%;
+  -moz-animation: reactnative 2s ease;
+  -webkit-animation: reactnative 2s ease;
+}
+.moment {
+  width: 50%;
+  -moz-animation: reactnative 2s ease;
+  -webkit-animation: reactnative 2s ease;
+}
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -480,10 +489,17 @@ ul#nav li.current a { color: #11ABB0; }
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-
+@-moz-keyframes php {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
 @-webkit-keyframes wordpress {
   0%   { width: 0px;  }
   100% { width: 60%;  }
+}
+@-moz-keyframes moment {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
 }
 @-webkit-keyframes bootstrap {
   0%   { width: 0px;  }
@@ -520,6 +536,14 @@ ul#nav li.current a { color: #11ABB0; }
 @-webkit-keyframes angularjs {
   0%   { width: 0px;  }
   100% { width: 60%;  }
+}
+@-webkit-keyframes php {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-webkit-keyframes moment {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
 }
 #testimonials {
   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;

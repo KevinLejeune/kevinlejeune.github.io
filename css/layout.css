@@ -454,6 +454,46 @@ ul#nav li.current a { color: #11ABB0; }
 	-moz-animation: materialize 2s ease;
 	-webkit-animation: materialize 2s ease;
 }
+.terminal {
+	width: 70%;
+	-moz-animation: terminal 2s ease;
+	-webkit-animation: terminal 2s ease;
+}
+.atom {
+	width: 80%;
+	-moz-animation: atom 2s ease;
+	-webkit-animation: atom 2s ease;
+}
+.sublime {
+	width: 80%;
+	-moz-animation: sublime 2s ease;
+	-webkit-animation: sublime 2s ease;
+}
+.trello {
+	width: 70%;
+	-moz-animation: trello 2s ease;
+	-webkit-animation: trello 2s ease;
+}
+.slack {
+	width: 70%;
+	-moz-animation: slack 2s ease;
+	-webkit-animation: slack 2s ease;
+}
+.teams {
+	width: 50%;
+	-moz-animation: teams 2s ease;
+	-webkit-animation: teams 2s ease;
+}
+.sketch {
+	width: 40%;
+	-moz-animation: sketch 2s ease;
+	-webkit-animation: sketch 2s ease;
+}
+.adobexd {
+	width: 40%;
+	-moz-animation: adobexd 2s ease;
+	-webkit-animation: adobexd 2s ease;
+}
 @-moz-keyframes wordpress {
 	0%   { width: 0px;  }
 	100% { width: 60%;  }
@@ -502,13 +542,45 @@ ul#nav li.current a { color: #11ABB0; }
 	0%   { width: 0px;  }
 	100% { width: 40%;  }
 }
-@-webkit-keyframes wordpress {
-	0%   { width: 0px;  }
-	100% { width: 60%;  }
-}
 @-moz-keyframes moment {
 	0%   { width: 0px;  }
 	100% { width: 50%;  }
+}
+@-moz-keyframes terminal {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+@-moz-keyframes atom {
+	0%   { width: 0px;  }
+	100% { width: 80%;  }
+}
+@-moz-keyframes sublime {
+	0%   { width: 0px;  }
+	100% { width: 80%;  }
+}
+@-moz-keyframes trello {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+@-moz-keyframes slack {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+@-moz-keyframes teams {
+	0%   { width: 0px;  }
+	100% { width: 50%;  }
+}
+@-moz-keyframes sketch {
+	0%   { width: 0px;  }
+	100% { width: 40%;  }
+}
+@-moz-keyframes adobexd {
+	0%   { width: 0px;  }
+	100% { width: 40%;  }
+}
+@-webkit-keyframes wordpress {
+	0%   { width: 0px;  }
+	100% { width: 60%;  }
 }
 @-webkit-keyframes bootstrap {
 	0%   { width: 0px;  }
@@ -557,6 +629,38 @@ ul#nav li.current a { color: #11ABB0; }
 @-webkit-keyframes materialize {
 	0%   { width: 0px;  }
 	100% { width: 50%;  }
+}
+@-webkit-keyframes terminal {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+@-webkit-keyframes atom {
+	0%   { width: 0px;  }
+	100% { width: 80%;  }
+}
+@-webkit-keyframes sublime {
+	0%   { width: 0px;  }
+	100% { width: 80%;  }
+}
+@-webkit-keyframes trello {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+@-webkit-keyframes slack {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+@-webkit-keyframes teams {
+	0%   { width: 0px;  }
+	100% { width: 50%;  }
+}
+@-webkit-keyframes sketch {
+	0%   { width: 0px;  }
+	100% { width: 40%;  }
+}
+@-webkit-keyframes adobexd {
+	0%   { width: 0px;  }
+	100% { width: 40%;  }
 }
 #testimonials {
 	background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;

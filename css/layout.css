@@ -400,7 +400,7 @@ ul#nav li.current a { color: #11ABB0; }
 	-webkit-animation: css 2s ease;
 }
 .html5 {
-	width: 80%;
+	width: 60%;
 	-moz-animation: html5 2s ease;
 	-webkit-animation: html5 2s ease;
 }
@@ -415,17 +415,17 @@ ul#nav li.current a { color: #11ABB0; }
 	-webkit-animation: bootstrap 2s ease;
 }
 .javascript {
-	width: 85%;
+	width: 50%;
 	-moz-animation: javascript 2s ease;
 	-webkit-animation: javascript 2s ease;
 }
 .vuejs {
-	width: 65%;
+	width: 30%;
 	-moz-animation: vuejs 2s ease;
 	-webkit-animation: vuejs 2s ease;
 }
 .reactnative {
-	width: 75%;
+	width: 40%;
 	-moz-animation: reactnative 2s ease;
 	-webkit-animation: reactnative 2s ease;
 }
@@ -435,7 +435,7 @@ ul#nav li.current a { color: #11ABB0; }
 	-webkit-animation: git 2s ease;
 }
 .angularjs {
-	width: 60%;
+	width: 30%;
 	-moz-animation: angularjs 2s ease;
 	-webkit-animation: angularjs 2s ease;
 }
@@ -508,7 +508,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-moz-keyframes html5 {
 	0%   { width: 0px;  }
-	100% { width: 80%;  }
+	100% { width: 60%;  }
 }
 @-moz-keyframes jquery {
 	0%   { width: 0px;  }
@@ -516,15 +516,15 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-moz-keyframes javascript {
 	0%   { width: 0px;  }
-	100% { width: 85%;  }
+	100% { width: 50%;  }
 }
 @-moz-keyframes vuejs {
 	0%   { width: 0px;  }
-	100% { width: 65%;  }
+	100% { width: 30%;  }
 }
 @-moz-keyframes reactnative {
 	0%   { width: 0px;  }
-	100% { width: 75%;  }
+	100% { width: 40%;  }
 }
 @-moz-keyframes git {
 	0%   { width: 0px;  }
@@ -532,7 +532,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-moz-keyframes angularjs {
 	0%   { width: 0px;  }
-	100% { width: 60%;  }
+	100% { width: 30%;  }
 }
 @-moz-keyframes php {
 	0%   { width: 0px;  }
@@ -592,7 +592,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-webkit-keyframes html5 {
 	0%   { width: 0px;  }
-	100% { width: 80%;  }
+	100% { width: 60%;  }
 }
 @-webkit-keyframes jquery {
 	0%   { width: 0px;  }
@@ -600,15 +600,15 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-webkit-keyframes javascript {
 	0%   { width: 0px;  }
-	100% { width: 85%;  }
+	100% { width: 50%;  }
 }
 @-webkit-keyframes vuejs {
 	0%   { width: 0px;  }
-	100% { width: 65%;  }
+	100% { width: 30%;  }
 }
 @-webkit-keyframes reactnative {
 	0%   { width: 0px;  }
-	100% { width: 75%;  }
+	100% { width: 40%;  }
 }
 @-webkit-keyframes git {
 	0%   { width: 0px;  }
@@ -616,7 +616,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-webkit-keyframes angularjs {
 	0%   { width: 0px;  }
-	100% { width: 60%;  }
+	100% { width: 30%;  }
 }
 @-webkit-keyframes php {
 	0%   { width: 0px;  }

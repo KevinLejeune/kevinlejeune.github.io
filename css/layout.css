@@ -350,8 +350,8 @@ ul#nav li.current a { color: #11ABB0; }
 }
 
 .bars {
-	width: 95%;
-	float: left;
+	/* width: 66s%; */
+	/* float: left; */
 	padding: 0;
 	text-align: left;
 }
